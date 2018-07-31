@@ -1,0 +1,47 @@
+{
+  "name": "gitlib",
+  "version": "1.0.0",
+  "description": "Object-oriented wrappers for Git.",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tewl/gitlib.git"
+  },
+  "keywords": [
+    "git",
+    "vcs"
+  ],
+  "author": "Kevin Peters <kwpeters@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tewl/gitlib/issues"
+  },
+  "homepage": "https://github.com/tewl/gitlib#readme",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/jasmine": "^2.8.6",
+    "@types/lodash": "^4.14.104",
+    "@types/node": "9.4.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.2",
+    "jasmine": "^3.1.0",
+    "publishtogit": "git+https://github.com/kwpeters/publishtogit.git#v2.0.2",
+    "strip-json-comments": "^2.0.1",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "asynchrony": "git+https://github.com/tewl/asynchrony.git#v2.0.0",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.5",
+    "oofs": "git+https://github.com/tewl/oofs.git#v1.0.0",
+    "stella": "git+https://github.com/tewl/stella.git#v1.3.0"
+  }
+}
