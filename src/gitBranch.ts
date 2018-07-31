@@ -30,7 +30,7 @@ export class GitBranch
     {
         // A Git branch name cannot:
         // - Have a path component that begins with "."
-        // - Have a double dot "…"
+        // - Have a double dot ".."
         // - Have an ASCII control character, "~", "^", ":" or SP, anywhere.
         // - End with a "/"
         // - End with ".lock"
