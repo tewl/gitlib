@@ -42,6 +42,6 @@
     "bluebird": "^3.5.1",
     "lodash": "^4.17.5",
     "oofs": "git+https://github.com/tewl/oofs.git#v1.0.0",
-    "stella": "git+https://github.com/tewl/stella.git#v1.3.0"
+    "stella": "git+https://github.com/tewl/stella.git#v1.4.0"
   }
 }
