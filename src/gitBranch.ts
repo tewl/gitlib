@@ -4,6 +4,12 @@ import {spawn} from "asynchrony";
 import {Validator} from "stella";
 
 
+// TODO: To get the branches that are pointing at a given commit:
+// git show-ref | grep -i "70e423e654f3a3"
+// This would be useful when creating a SourceTree custom action that would
+// allow the user to right click on a commit and copy the branch names that
+// refer to that commit.
+
 export class GitBranch
 {
     // region Static Data Members
